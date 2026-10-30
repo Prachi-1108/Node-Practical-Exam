@@ -84,3 +84,4 @@ emitter.on('error', (err) => {
 
 // This will trigger the error handler
 emitter.emit('error', new Error('Something went wrong'));
+
